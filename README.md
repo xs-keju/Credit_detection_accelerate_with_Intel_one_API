@@ -10,7 +10,7 @@ random forest with several data-preprocessing methods as the main machine learni
 * This project leverages Intel's Intel® oneAPI AI Analytics Toolkit for accelerating machine learning. For downloading the relevant libraries, please refer to the README file at https://github.com/huiyan2021/oneAPI-samples.
 * unzip the dataset using command:
   ```bash
-  unzip creditcard.zip && mv ./creditcard/creditcard.csv . && rm ./creditcard
+  unzip creditcard.zip && rm creditcard.zip
     ````
 1. Project Structure and description:
 ![Alt text](structure.png)
