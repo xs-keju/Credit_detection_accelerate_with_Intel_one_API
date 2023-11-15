@@ -8,8 +8,11 @@ random forest with several data-preprocessing methods as the main machine learni
 2. Setting up the Environment:
 
 * This project leverages Intel's Intel® oneAPI AI Analytics Toolkit for accelerating machine learning. For downloading the relevant libraries, please refer to the README file at https://github.com/huiyan2021/oneAPI-samples.
-  
-3. Project Structure and description:
+* unzip the dataset using command:
+  ```bash
+  unzip creditcard.zip && mv ./creditcard/creditcard.csv . && rm ./creditcard
+    ````
+1. Project Structure and description:
 ![Alt text](structure.png)
 * The project comprises four executable notebook files: intel.ipynb, stock.ipynb, intel_full.ipynb, stock_full.ipynb.
 * All four files use random forest and XGBoost models to train on fraudulent data from the creditcard.csv file in this folder (For more information on the data, refer to the source: https://github.com/oneapi-src/credit-card-fraud-detection).
