@@ -12,7 +12,7 @@ random forest with several data-preprocessing methods as the main machine learni
   ```bash
   unzip creditcard.zip && rm creditcard.zip
     ````
-1. Project Structure and description:
+3. Project Structure and description:
 ![Alt text](structure.png)
 * The project comprises four executable notebook files: intel.ipynb, stock.ipynb, intel_full.ipynb, stock_full.ipynb.
 * All four files use random forest and XGBoost models to train on fraudulent data from the creditcard.csv file in this folder (For more information on the data, refer to the source: https://github.com/oneapi-src/credit-card-fraud-detection).
@@ -21,3 +21,6 @@ random forest with several data-preprocessing methods as the main machine learni
 * Files labeled with "stock" use the official random forest and XGBoost libraries, while those labeled with "intel" utilize Intel-accelerated machine learning libraries.
 * Files labeled with "full" further employ parameter grid search and cross-validation for optimization.
 * Running the files generates corresponding model data files and log information.
+
+4. supplement:
+* For more detailed information on our implementation, please refer to the “信用卡欺诈检测——利用配备Intel® oneAPI AI Analytics Toolkit的机器学习方法.pdf” or "The detection of credit card transaction fraud – Applying machine learning methods with Intel oneAPI AI Analytics Toolkit.pdf".
